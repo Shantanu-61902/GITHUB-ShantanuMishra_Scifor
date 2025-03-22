@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <style>
+        body{
+            background-color: khaki;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: cornflowerblue;
+            font-style: italic;">
+        }
+        form {
+            background: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 20px;
+            width: 320px;
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <h3><b>Registration Form</b></h3>
+    <hr>
+
+    <form >
+        <table>
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" name="fname" id="fname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" name="lname" id="lname"/td>
+            </tr>
+            <tr>
+                <td><label for="email">E-Mail:</label></td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Enter Password:</label></td>
+                <td><input type="password" name="password" id="password"</td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend><b>Select Gender</b></legend>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" id="other" value="Other">
+            <label for="other">Other</label>
+        </fieldset>
+        <fieldset>
+            <legend><b>Skills</b></legend>
+            <input type="checkbox" name="skills" id="html" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" name="skills" id="css" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" name="skills" id="JavaScript value="JavaScript>
+            <label for="JavaScript">JavaScript/label><br>
+            <input type="checkbox" name="skills" id="tailwind" value="tailwind">
+            <label for="tailwind">Tailwind</label><br>
+            <input type="checkbox" name="skills" id="SQL" value="SQL">
+            <label for="SQL">SQL</label><br>
+        </fieldset>
+
+        <label for="button"></label>
+        <input style="background-color: lightskyblue;cursor: pointer;" type="Submit">
+        <label for="Reset"></label>
+        <input style="background-color: red;cursor: pointer;" type="Reset">
+    </form>
+</body>
+</html>
