@@ -1,0 +1,19 @@
+body{
+    background-image: url(./miles-burke-idhx-MOCDSk-unsplash.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+
+}
+p{
+    background-color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: small;
+    color: rgb(251, 243, 5);
+}

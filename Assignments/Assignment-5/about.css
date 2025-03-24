@@ -1,0 +1,19 @@
+body {
+  background-image: url(./pngtree-a-background-of-orange-blue-and-yellow.jpg);
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(0, 90, 139);
+}
+li {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: inherit;
+  color: rgb(115, 49, 27);
+}

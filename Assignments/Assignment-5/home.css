@@ -1,0 +1,16 @@
+body {
+  background: url(./pexels-sebastian-189349.jpg);
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: unset;
+  color: indigo;
+}
+
+li {
+  color: rgb(167, 24, 11);
+}

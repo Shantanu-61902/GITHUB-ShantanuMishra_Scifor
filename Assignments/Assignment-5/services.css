@@ -1,0 +1,23 @@
+body {
+  background-image: url(./3274398.jpg);
+  background-size: cover;
+  margin: 0%;
+  height: 100vh;
+}
+
+h1 {
+  color: orangered;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  font-weight: normal;
+}
+
+b {
+  color: red;
+}

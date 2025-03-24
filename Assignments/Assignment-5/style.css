@@ -1,0 +1,19 @@
+body {
+  background-image: url(./museums-victoria-m7x8KnZRDvk-unsplash.jpg);
+  background-size: cover;
+  margin: 0%;
+  height: 100vh;
+}
+h3 {
+  color: darkblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+a {
+  color: rgb(208, 63, 5);
+}
