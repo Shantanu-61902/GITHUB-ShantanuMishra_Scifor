@@ -1,0 +1,16 @@
+body {
+  background: url(https://plus.unsplash.com/premium_photo-1672642064354-9fda98878976?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhvbWVwYWdlfGVufDB8fDB8fHww);
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: unset;
+  color: rgb(6, 230, 246);
+}
+
+li {
+  color: rgb(252, 240, 9);
+}

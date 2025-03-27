@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://plus.unsplash.com/premium_photo-1683288662019-c92caea8276d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWJvdXQlMjB3ZWJwYWdlfGVufDB8fDB8fHww);
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(128, 209, 253);
+}
+li {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: inherit;
+  color: rgb(252, 251, 250);
+}
