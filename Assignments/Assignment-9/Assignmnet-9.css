@@ -1,0 +1,17 @@
+body {
+  background-color: bisque;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  color: darkred;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  color: darkred;
+}
