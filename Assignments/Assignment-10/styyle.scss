@@ -1,0 +1,24 @@
+$color: rgb(0, 208, 255);
+$color1: khaki;
+$fontfam: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+$bclr: orange;
+$bkcolor: black;
+
+body {
+  background-color: $bkcolor;
+
+  h1 {
+    color: $color;
+    font-family: $fontfam;
+  }
+
+  p {
+    color: $color1;
+    font-family: $fontfam;
+  }
+
+  b {
+    color: $bclr;
+    font-family: $fontfam;
+  }
+}

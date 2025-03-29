@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+}
+body h1 {
+  color: rgb(0, 208, 255);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body p {
+  color: khaki;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body b {
+  color: orange;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}/*# sourceMappingURL=styyle.css.map */
