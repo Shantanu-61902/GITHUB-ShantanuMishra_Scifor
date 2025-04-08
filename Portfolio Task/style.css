@@ -1,0 +1,27 @@
+:root {
+  --green-clr: #dffe02;
+  --gray-clr: #898989;
+  --dark-blue-clr: #171c22;
+}
+
+/* Navbar brand color */
+.navbar-brand {
+  color: var(--green-clr);
+}
+
+.cover-section {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtk4C5wdl8S1ogO3KDaC1DecN6byr3ENFPeA&s);
+  background-size: cover;
+  background-position: center;
+  height: 230vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(208, 65, 8);
+  padding: 30vh;
+
+}
+
+body {
+  background-color: #ffffff;
+}
