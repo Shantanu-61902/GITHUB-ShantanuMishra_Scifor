@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background: #6f1717;
+      }
+      .container {
+        width: 100%;
+        max-width: 400px;
+        margin: 80px auto;
+        padding: 30px;
+        background: #faeec6;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      .logo {
+        display: block;
+        margin: 0 auto 20px;
+        width: 200px;
+        height: 200px;
+      }
+      h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #fc0303;
+      }
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .forgot {
+        text-align: right;
+        margin-bottom: 20px;
+        
+      }
+      .forgot a {
+        color: #007bff;
+        text-decoration: none;
+        
+      }
+      .forgot a:hover {
+        text-decoration: underline;
+      }
+      button {
+        width: 100%;
+        padding: 12px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+      }
+      button:hover {
+        background: #0056b3;
+      }
+      .error {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoXKkBk9wx-WgkpGDI8eIUDu_kBminNzygXA&s"
+        alt="Logo"
+        class="logo"
+      />
+      <h2>Login</h2>
+      <div class="error" id="error">Please fill all fields correctly!</div>
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <div class="forgot">
+        <a href="#">Forgot Password?</a>
+      </div>
+      <button onclick="login()">Login</button>
+    </div>
+
+    <script>
+      function login() {
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value.trim();
+        const errorDiv = document.getElementById("error");
+
+        if (email === "" || password === "") {
+          errorDiv.style.display = "block";
+        } else {
+          errorDiv.style.display = "none";
+          alert("Login Successful!");
+          
+        }
+      }
+    </script>
+  </body>
+</html>
